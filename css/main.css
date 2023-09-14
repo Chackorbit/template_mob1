@@ -58,7 +58,7 @@ main {
   position: absolute;
   margin: auto;
   top: 270px;
-  left: 0;
+  left: 105px;
   bottom: 0;
   right: 0;
 }
@@ -86,11 +86,11 @@ main {
 
 .about_us {
   max-width: 375px;
-  background: url("./img/Vector6.png") top 235px right 30px no-repeat,
-    url("./img/unsplash_BAz3HU8evwQ.png") top 170px right 20px no-repeat,
-    url("./img/Vector-7.png") bottom 10px left 30px no-repeat,
-    url("./img/unsplash_dke3_KCdZaw.png") bottom 90px left 20px no-repeat,
-    url("./img/image-27.png") bottom 180px left 0 no-repeat;
+  background: url("../img/Vector6.png") top 235px right 30px no-repeat,
+    url("../img/unsplash_BAz3HU8evwQ.png") top 170px right 20px no-repeat,
+    url("../img/Vector-7.png") bottom 10px left 30px no-repeat,
+    url("../img/unsplash_dke3_KCdZaw.png") bottom 90px left 20px no-repeat,
+    url("../img/image-27.png") bottom 180px left 0 no-repeat;
 
   margin-bottom: 30px;
 }
@@ -160,7 +160,7 @@ main {
   color: #ffffff;
   text-align: center;
 
-  background: url("./img/Frame34.png") top 0 left 0 no-repeat;
+  background: url("../img/Frame34.png") top 0 left 0 no-repeat;
 }
 
 .catalog_header {
@@ -201,6 +201,7 @@ main {
 /************ FOOTER ************/
 .footer {
   width: 375px;
+  margin: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -221,6 +222,7 @@ main {
 .footer_contacts {
   display: flex;
   flex-direction: column;
+
   gap: 24px;
   margin-left: 20px;
 }
