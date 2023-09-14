@@ -11,6 +11,7 @@
         rel="stylesheet">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/popup.css">
     <title>Document</title>
 </head>
 
@@ -83,7 +84,7 @@
             <p class="catalog_text">Classic combucha</p>
             <img class="catalog_img" src="./img/image-28.png" alt="">
             <p class="catalog_price">45 uan</p>
-            <button class="catalog_button">order</button>
+            <button class="catalog_button js-open-modal" data-modal="1">order</button>
         </div>
     </main>
 
@@ -99,6 +100,16 @@
                 str.</li>
         </ul>
     </footer>
+
+    <div class="popup js-open-modal js-modal-close" data-modal="1">
+        <h1 class="popup_header">
+            Popup WORK!!!
+        </h1>
+        <p class="popup_text">I really work. And now close me please!!!</p>
+    </div>
+    <div class="overlay js-overlay-modal"></div>
+
+    <script type="module" src="./js/index.js"></script>
 </body>
 
 </html>
